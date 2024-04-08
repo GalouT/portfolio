@@ -30,48 +30,16 @@ function App() {
         </div>
         <div className="presentacion">
           <p id="sobre-mi">
-            Soy un apasionado aspirante a desarrollador web frontend. Aunque
-            estoy dando mis primeros pasos en este mundo, me da mucho
-            entusiasmo. A pesar de no contar con experiencia profesional,
-            realicé proyectos personales que demuestran mi habilidad para
-            enfrentar desafíos y encontrar soluciones creativas. Aprendo rápido
-            y me interesa incorporar nuevas tecnologías y tendencias en el
-            desarrollo frontend. Mi objetivo es contribuir al mundo del
-            desarrollo web construyendo experiencias que no solo cumplan con los
-            estándares, sino que también superen las expectativas de los
-            usuarios.
+            Soy un apasionado aspirante a desarrollador web frontend que está
+            dando sus primeros pasos en este mundo con mucho entusiasmo. A pesar
+            de no contar con experiencia profesional, realicé proyectos
+            personales que demuestran mi habilidad para enfrentar desafíos y
+            encontrar soluciones creativas. Aprendo rápido y me interesa
+            incorporar nuevas tecnologías y tendencias en el desarrollo
+            frontend. Mi objetivo es contribuir al mundo del desarrollo web
+            construyendo experiencias que no solo cumplan con los estándares,
+            sino que también superen las expectativas de los usuarios.
           </p>
-        </div>
-        <div>
-          <nav className="redes-sociales" id="contacto">
-            <RedSocial href="https://www.linkedin.com/in/galo-tutanoski-261aa0122/">
-              <IconoRedSocial
-                src={linkedinIcon}
-                width="50px"
-                height="50px"
-                alt="linkedin"
-              />
-              Linkedin
-            </RedSocial>
-            <RedSocial href="https://github.com/GalouT">
-              <IconoRedSocial
-                src={githubIcon}
-                width="50px"
-                height="50px"
-                alt="github"
-              />
-              GitHub
-            </RedSocial>
-            <RedSocial href="mailto:galotutanoski@gmail.com">
-              <IconoRedSocial
-                src={mailIcon}
-                width="50px"
-                height="50px"
-                alt="mail"
-              />
-              galotutanoski@gmail.com
-            </RedSocial>
-          </nav>
         </div>
         <div className="tecnologias">
           <h2>Tecnologías que domino</h2>
@@ -167,6 +135,38 @@ function App() {
               </li>
             </ul>
           </div>
+        </div>
+        <div>
+          <h2 className="contacto_redes-sociales">Contacto</h2>
+          <nav className="redes-sociales" id="contacto">
+            <RedSocial href="https://www.linkedin.com/in/galo-tutanoski-261aa0122/">
+              <IconoRedSocial
+                src={linkedinIcon}
+                width="50px"
+                height="50px"
+                alt="linkedin"
+              />
+              Linkedin
+            </RedSocial>
+            <RedSocial href="https://github.com/GalouT">
+              <IconoRedSocial
+                src={githubIcon}
+                width="50px"
+                height="50px"
+                alt="github"
+              />
+              GitHub
+            </RedSocial>
+            <RedSocial href="mailto:galotutanoski@gmail.com">
+              <IconoRedSocial
+                src={mailIcon}
+                width="50px"
+                height="50px"
+                alt="mail"
+              />
+              galotutanoski@gmail.com
+            </RedSocial>
+          </nav>
         </div>
         <footer>
           <Footer />

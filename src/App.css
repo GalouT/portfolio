@@ -86,6 +86,9 @@ body {
   scale: 1.1;
 }
 
+.contacto_redes-sociales {
+  text-align: center;
+}
 .redes-sociales {
   width: 100%;
   gap: 15px;
