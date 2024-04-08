@@ -29,7 +29,7 @@ function App() {
           <p className="disponible">Disponible para trabajar</p>
         </div>
         <div className="presentacion">
-          <p id="sobre-mi">
+          <p id="sobre-mi" className="sobre-mi">
             Soy un apasionado aspirante a desarrollador web frontend que está
             dando sus primeros pasos en este mundo con mucho entusiasmo. A pesar
             de no contar con experiencia profesional, realicé proyectos
