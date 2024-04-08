@@ -58,7 +58,6 @@ body {
 .tarjeta_titulo {
   margin-top: 10px;
   font-size: 35px;
-  letter-spacing: 2px;
 }
 
 .presentacion {
@@ -133,7 +132,6 @@ body {
 
 h2 {
   font-size: 55px;
-  letter-spacing: 2px;
 }
 
 p {
@@ -173,9 +171,6 @@ p {
   border-radius: 5px;
 }
 
-.proyectos {
-  letter-spacing: 10px;
-}
 .proyectos_lista a {
   text-decoration: none;
   color: rgb(77, 126, 204);
