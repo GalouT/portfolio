@@ -231,3 +231,128 @@ li {
     text-align: center;
   }
 }
+
+@media (max-width: 450px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(./images/bg/1_67g9_7kQfjQmFvOmRF2Giw.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+
+  .tarjeta {
+    width: 90vw; /* Ajuste para dispositivos pequeños */
+    max-width: 450px; /* Límite de 450px */
+    height: 94%;
+    background: rgb(28, 27, 27);
+    opacity: 0.9;
+    margin-top: 5vh;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px 3px #fff8;
+  }
+
+  .nav-bar {
+    width: 90%; /* Ajuste para dispositivos pequeños */
+    max-width: 450px; /* Límite de 450px */
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px; /* Ajuste para dispositivos pequeños */
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 3px #fff;
+  }
+
+  .tarjeta_avatar {
+    width: 200px; /* Ajuste para dispositivos pequeños */
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px 3px #fff8;
+  }
+
+  .tarjeta_titulo {
+    margin-top: 10px;
+    font-size: 24px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .presentacion {
+    margin: 0 20px; /* Ajuste para dispositivos pequeños */
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .disponible {
+    background-color: rgb(41, 121, 10);
+    justify-content: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 260px;
+    margin-bottom: 20px; /* Ajuste para dispositivos pequeños */
+    font-size: 18px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .redes-sociales {
+    width: 90%; /* Ajuste para dispositivos pequeños */
+    max-width: 450px; /* Límite de 450px */
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Ajuste para dispositivos pequeños */
+  }
+
+  .redes-sociales a {
+    font-size: 16px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .tecnologias {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .tecnologias_titulo {
+    margin-top: 20px; /* Ajuste para dispositivos pequeños */
+    margin-bottom: 10px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .proyectos_lista {
+    margin: 0 10px; /* Ajuste para dispositivos pequeños */
+    padding: 10px;
+  }
+
+  .proyectos_lista a {
+    font-size: 20px; /* Ajuste para dispositivos pequeños */
+  }
+
+  .footer {
+    margin-top: 20px; /* Ajuste para dispositivos pequeños */
+    margin-bottom: 20px;
+    width: 90vw;
+  }
+}
