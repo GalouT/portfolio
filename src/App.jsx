@@ -17,8 +17,8 @@ function App() {
     <>
       <div className="nav-bar">
         <a href="#sobre-mi">Sobre mi</a>
-        <a href="#contacto">Contacto</a>
         <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
       </div>
       <div className="tarjeta">
         <img className="tarjeta_avatar" src={fotoAv} alt="foto-avatar" />
