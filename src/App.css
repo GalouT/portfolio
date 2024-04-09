@@ -98,6 +98,10 @@ body {
   margin-bottom: 40px;
 }
 
+.titulo_redes-sociales {
+  margin-left: 100px;
+}
+
 .redes-sociales a {
   display: flex;
   justify-content: center;
@@ -158,9 +162,9 @@ p {
 
 .tecnologias-titulo {
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-left: -120px;
   gap: 25px;
 }
 
@@ -247,12 +251,12 @@ li {
   }
 
   .tarjeta {
-    width: 70vw; /* Ajuste para dispositivos pequeños */
+    width: 100%; /* Ajuste para dispositivos pequeños */
     max-width: 450px; /* Límite de 450px */
     height: 94%;
     background: rgb(28, 27, 27);
     opacity: 0.9;
-    margin-top: 5vh;
+    margin: auto;
     border-radius: 15px;
     padding: 10px;
     display: flex;
@@ -266,7 +270,8 @@ li {
     width: 90%; /* Ajuste para dispositivos pequeños */
     max-width: 450px; /* Límite de 450px */
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -310,17 +315,18 @@ li {
     align-items: center;
     border-radius: 20px;
     width: 210px;
-    margin-bottom: 20px; /* Ajuste para dispositivos pequeños */
-    font-size: 18px; /* Ajuste para dispositivos pequeños */
+    margin-bottom: 20px;
+    font-size: 18px;
   }
 
   .sobre-mi {
     font-size: 14px;
+    width: 100%;
   }
 
   p {
     font-size: 14px;
-    width: 190px;
+    width: 100%;
     text-align: justify;
   }
 
@@ -343,8 +349,8 @@ li {
 
   .redes-sociales {
     flex-direction: column;
-    width: 100%; /* Ajuste para dispositivos pequeños */
-    max-width: 450px; /* Límite de 450px */
+    width: 100%;
+    max-width: 450px;
     gap: 4px;
     display: flex;
     justify-content: center;
@@ -365,28 +371,45 @@ li {
   .tecnologias {
     margin: 20px;
     display: flex;
-
     align-items: center;
-    font-size: 16px; /* Ajuste para dispositivos pequeños */
+    font-size: 16px;
+  }
+
+  .tecnologias-titulo {
+    margin: auto;
+    gap: 2px;
+    margin-left: 40px;
   }
 
   .iconos-tecnologias {
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 30px;
+    justify-content: space-around;
   }
 
   .tecnologias-titulo {
     display: flex;
     flex-direction: row;
-    margin-top: 20px; /* Ajuste para dispositivos pequeños */
-    margin-bottom: 10px; /* Ajuste para dispositivos pequeños */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .proyectos_lista {
-    margin: 0 10px; /* Ajuste para dispositivos pequeños */
+    display: flex;
+    margin: 0 10px;
     padding: 10px;
+    width: 100%;
   }
 
   .proyectos_lista a {
     font-size: 15px;
+  }
+  .proyectos_lista ul {
+    margin: auto;
+  }
+
+  footer {
+    margin-left: 60px;
   }
 }

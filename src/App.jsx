@@ -11,6 +11,7 @@ import IconoHtml from "./images/iconos/html.png";
 import IconoCss from "./images/iconos/css.png";
 import IconoJs from "./images/iconos/javascript.png";
 import IconoReact from "./images/iconos/react.png";
+import IconoVercel from "./images/iconos/vercel.png";
 
 function App() {
   return (
@@ -65,6 +66,12 @@ function App() {
           />
           <TecnologiaIcono
             src={githubIcon}
+            alt="github"
+            width={96}
+            height={96}
+          />
+          <TecnologiaIcono
+            src={IconoVercel}
             alt="github"
             width={96}
             height={96}
@@ -164,7 +171,7 @@ function App() {
                 height="50px"
                 alt="mail"
               />
-              galotutanoski@gmail.com
+              Email
             </RedSocial>
           </nav>
         </div>
