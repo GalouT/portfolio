@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
   scroll-behavior: smooth;
 }
 
@@ -181,6 +182,10 @@ p {
   text-decoration: none;
   color: rgb(77, 126, 204);
   font-size: 30px;
+}
+
+.proyectos_lista_li {
+  display: flex;
 }
 
 ul {

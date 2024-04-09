@@ -12,6 +12,7 @@ import IconoCss from "./images/iconos/css.png";
 import IconoJs from "./images/iconos/javascript.png";
 import IconoReact from "./images/iconos/react.png";
 import IconoVercel from "./images/iconos/vercel.png";
+import IconoCode from "./images/iconos/code.png";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <div className="presentacion">
           <p id="sobre-mi" className="sobre-mi">
             Soy un apasionado aspirante a desarrollador web frontend que está
-            dando sus primeros pasos en este mundo con mucho entusiasmo. A pesar
+            dando sus primeros pasos en este campo con mucho entusiasmo. A pesar
             de no contar con experiencia profesional, realicé proyectos
             personales que demuestran mi habilidad para enfrentar desafíos y
             encontrar soluciones creativas. Aprendo rápido y me interesa
