@@ -151,11 +151,12 @@ p {
 }
 
 .tecnologias p {
+  display: flex;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.tecnologias_titulo {
+.tecnologias-titulo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,9 +388,5 @@ li {
 
   .proyectos_lista a {
     font-size: 15px;
-  }
-
-  .footer_ {
-    font-size: 2px;
   }
 }
