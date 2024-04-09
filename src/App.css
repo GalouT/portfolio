@@ -191,7 +191,7 @@ li {
 
 .footer {
   display: flex;
-  margin-top: 90px;
+  margin-top: 40px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
@@ -200,7 +200,6 @@ li {
   background-color: black;
   border-radius: 8px;
   background-color: transparent;
-  letter-spacing: 2px;
 }
 
 @media (max-width: 1200px) {
@@ -247,7 +246,7 @@ li {
   }
 
   .tarjeta {
-    width: 90vw; /* Ajuste para dispositivos pequeños */
+    width: 70vw; /* Ajuste para dispositivos pequeños */
     max-width: 450px; /* Límite de 450px */
     height: 94%;
     background: rgb(28, 27, 27);
@@ -276,7 +275,7 @@ li {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    font-size: 16px; /* Ajuste para dispositivos pequeños */
+    font-size: 10px; /* Ajuste para dispositivos pequeños */
     background-color: black;
     opacity: 0.8;
     border-radius: 15px;
@@ -284,23 +283,22 @@ li {
   }
 
   .tarjeta_avatar {
-    width: 200px; /* Ajuste para dispositivos pequeños */
+    width: 100px;
+    height: 100px; /* Ajuste para dispositivos pequeños */
     border-radius: 50%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px;
     box-shadow: 0 0 30px 3px #fff8;
   }
 
   .tarjeta_titulo {
-    margin-top: 10px;
-    font-size: 24px; /* Ajuste para dispositivos pequeños */
+    margin-top: 5px;
+    font-size: 15px;
   }
 
   .presentacion {
     margin: 0 20px; /* Ajuste para dispositivos pequeños */
-    line-height: 1.6;
-    text-align: justify;
   }
 
   .disponible {
@@ -310,33 +308,74 @@ li {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    width: 260px;
+    width: 210px;
     margin-bottom: 20px; /* Ajuste para dispositivos pequeños */
     font-size: 18px; /* Ajuste para dispositivos pequeños */
   }
 
+  .sobre-mi {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+    width: 190px;
+    text-align: justify;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .div_redes-sociales {
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo_redes-sociales {
+    margin: auto;
+  }
+
   .redes-sociales {
-    width: 90%; /* Ajuste para dispositivos pequeños */
+    flex-direction: column;
+    width: 100%; /* Ajuste para dispositivos pequeños */
     max-width: 450px; /* Límite de 450px */
-    gap: 15px;
+    gap: 4px;
     display: flex;
     justify-content: center;
-    margin: 20px 0; /* Ajuste para dispositivos pequeños */
+    margin: 20px 0;
+    gap: 15px;
   }
 
   .redes-sociales a {
-    font-size: 16px; /* Ajuste para dispositivos pequeños */
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .redes-sociales img {
+    width: 30px;
+    height: 30px;
   }
 
   .tecnologias {
     margin: 20px;
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     font-size: 16px; /* Ajuste para dispositivos pequeños */
   }
 
-  .tecnologias_titulo {
+  .iconos-tecnologias {
+    flex-direction: column;
+  }
+
+  .tecnologias-titulo {
+    display: flex;
+    flex-direction: row;
     margin-top: 20px; /* Ajuste para dispositivos pequeños */
     margin-bottom: 10px; /* Ajuste para dispositivos pequeños */
   }
@@ -347,12 +386,10 @@ li {
   }
 
   .proyectos_lista a {
-    font-size: 20px; /* Ajuste para dispositivos pequeños */
+    font-size: 15px;
   }
 
-  .footer {
-    margin-top: 20px; /* Ajuste para dispositivos pequeños */
-    margin-bottom: 20px;
-    width: 90vw;
+  .footer_ {
+    font-size: 2px;
   }
 }

@@ -136,8 +136,8 @@ function App() {
             </ul>
           </div>
         </div>
-        <div>
-          <h2 className="contacto_redes-sociales">Contacto</h2>
+        <div className="div_redes-sociales">
+          <h2 className="titulo_redes-sociales">Contacto</h2>
           <nav className="redes-sociales" id="contacto">
             <RedSocial href="https://www.linkedin.com/in/galo-tutanoski-261aa0122/">
               <IconoRedSocial
@@ -168,7 +168,7 @@ function App() {
             </RedSocial>
           </nav>
         </div>
-        <footer>
+        <footer className="footer_">
           <Footer />
         </footer>
       </div>
